@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', 'Raleway', sans-serif;
+  color: #222223;
+}
+
+*{
+  transition: .3s all ease;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ****************************************************************************** */
+
+.main{
+  background-color: #222223;
+  min-height: 100vh;
+}
+
+.screen{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+}
+
+.screen__title{
+  color: #fff;
+  font-family: 'Raleway';
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 4rem;
+  text-align: center;
+  align-self: flex-end;
+  margin: 0 0 8rem 0;
+}
+
+.screen__bottom{
+  position: absolute;
+  bottom: -193px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about{
+
+}
+
+.about__img{
+  border-radius: 100%;
+  border: 5px solid #fff;
+  overflow: hidden;
+  box-shadow:  0 0 10px -5px #222223;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.about__img img{
+  max-width: 100%;
+}
+
+.about__text{
+  text-align: center;
+}
+
+.about__text a{
+  color: #222223;
+}
+
+.about__links{
+
+}
+
+.about__links ul{
+  display: flex;
+  justify-content: center;
+}
+
+.about__links li{
+  margin-right: 15px;
+}
+.about__links li:last-child{
+  margin-right: 0;
+}
+
+.about__links li:hover{
+  transform: translateY(-10px);
+}
+
+.about__links a{
+  font-size: 22px;
+}
+
+.about__links a .fa-facebook{
+  color: #4267B2;
+}
+.about__links a .fa-linkedin-in{
+  color: #0077b5;
+}
+.about__links a .fa-github{
+  color: #000;
+}
+
+/* ****************************************************************************** */
+.space{
+  height: 240px;
+  background-color: #fff;
+}
+/* ****************************************************************************** */
