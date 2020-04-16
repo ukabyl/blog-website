@@ -24,6 +24,12 @@ ul{
 
 .main{
   background-color: #222223;
+  background-image: url('../img/bg.jpg');
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   min-height: 100vh;
 }
 
@@ -271,6 +277,9 @@ footer a{
     color: #fff;
     text-shadow: 0 0 3px #fff;
     transform: translateX(0);
+  }
+  .main{
+    padding: 5rem 0;
   }
   .about{
     padding-left: 10px;
