@@ -252,4 +252,34 @@ footer a{
     margin-left: auto;
     text-align: center;
   }
+  .screen{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .screen__title span{
+    display: block;
+  }
+  .screen__title{
+    align-self: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .screen__bottom {
+    position: relative;
+    bottom: unset;
+    left: unset;
+    color: #fff;
+    text-shadow: 0 0 3px #fff;
+    transform: translateX(0);
+  }
+  .about{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .about__text a{
+    color: #fff;
+  }
+  .space{
+    display: none;
+  }
 }
