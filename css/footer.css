@@ -1,0 +1,12 @@
+footer{
+  background-color: #222223;
+  text-align: center;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+footer a{
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+}

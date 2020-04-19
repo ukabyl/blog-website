@@ -1,0 +1,49 @@
+.about{
+
+}
+
+.about__img{
+  border-radius: 100%;
+  border: 5px solid #fff;
+  overflow: hidden;
+  box-shadow:  0 0 10px -5px #222223;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.about__img img{
+  max-width: 100%;
+}
+
+.about__text{
+  text-align: center;
+}
+
+.about__text a{
+  color: #222223;
+}
+
+.about__links{
+
+}
+
+.about__links ul{
+  display: flex;
+  justify-content: center;
+}
+
+.about__links li{
+  margin-right: 15px;
+}
+.about__links li:last-child{
+  margin-right: 0;
+}
+
+.about__links li:hover{
+  transform: translateY(-10px);
+}
+
+.about__links a{
+  font-size: 22px;
+}
